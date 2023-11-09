@@ -4,5 +4,13 @@ import 'package:flutter/material.dart';
 // it is the entry point for dart programs
 void main() {
   // runApp needs a widget tree to run
-  runApp(const MaterialApp(home: Scaffold(body: Center(child: Text('Hello World')))));
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    ),
+  );
 }
