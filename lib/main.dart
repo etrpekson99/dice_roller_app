@@ -7,6 +7,8 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
+        // backgroundColor: Color.fromARGB(255, 82, 163, 203),
+        backgroundColor: Colors.blueGrey,
         body: Center(
           child: Text('Hello World'),
         ),
